@@ -6,6 +6,7 @@ This Tool used for Capture TCP or UDP Package on Windows
 使用步骤
 1. 程序依赖Winpcap的驱动，所以在使用前先在系统上安装Wireshark(图简便，Wireshark中只带Winpcap驱动)
 2. 设置配置文件中的显卡ID和抓包用的过滤表达式，配置文件全文如下：
+
 [BASE]
 #运行模式，0手动模式，1自动模式
 mode = 1
